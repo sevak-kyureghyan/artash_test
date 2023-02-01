@@ -1,5 +1,5 @@
-from pages.base_page import BasePage
-from config.config import Settings_Page,Main_Page_Data,Create_Init_Page
+from ..pages.base_page import BasePage
+from ..config.config import Settings_Page,Main_Page_Data,Create_Init_Page
 from dotenv import load_dotenv
 import os
 
