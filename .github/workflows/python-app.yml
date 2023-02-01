@@ -24,4 +24,4 @@ jobs:
     
     - name: Run tests
       run: |
-        pytest --rootdir=D:\a\artash_test\artash_test
+        pytest --rootdir=D:\a\
