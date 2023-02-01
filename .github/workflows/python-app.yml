@@ -22,12 +22,6 @@ jobs:
       run: |
         pip install -r requirements.txt
   
-    - name: Print directory contents
-    run: |
-      echo "Contents of rootdir directory:"
-      ls -la
-
     - name: Run tests
       run: |
         pytest -v
-
