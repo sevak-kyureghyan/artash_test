@@ -65,8 +65,3 @@ class Check_Create_Init(BasePage):
         self.click(Create_Init_Page.create_btn)
         validation_error = self.find_text(Ideation_Data.validation_error_desc)
         assert validation_error == 'Description is required', 'Wrong validation error'
-
-    
-
-        
-        

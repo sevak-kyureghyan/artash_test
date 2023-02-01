@@ -1,13 +1,13 @@
-# # from a.tests_github_integration.tests_github_integration.pages.create_ideation import Check_Ideations
-# from pages.create_ideation import Check_Ideations
-# from dotenv import load_dotenv
-# import os
+# from a.tests_github_integration.tests_github_integration.pages.create_ideation import Check_Ideations
+from ..pages.create_ideation import Check_Ideations
+from dotenv import load_dotenv
+import os
 
 
 
-# class Test_Ideations(Check_Ideations):
-#     load_dotenv
-#     def test_create_delete_ideations(self,setup):
-#         self.browser = setup
-#         self.browser.get(os.getenv('Prod_Url'))
-#         self.check_create_delete()
+class Test_Ideations(Check_Ideations):
+    load_dotenv
+    def test_create_delete_ideations(self,setup):
+        self.browser = setup
+        self.browser.get(os.getenv('Prod_Url'))
+        self.check_create_delete()
