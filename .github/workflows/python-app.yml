@@ -21,7 +21,11 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
-  
+
+    - name: Print rootdir
+      run: |
+        echo "rootdir: $(pwd)"
+
     - name: Run tests
       run: |
         pytest -v
