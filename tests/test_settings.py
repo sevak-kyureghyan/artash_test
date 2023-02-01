@@ -1,6 +1,6 @@
-from pages.settings import check_settings_page
-from dotenv import load_dotenv
-import os
+# from pages.settings import check_settings_page
+# from dotenv import load_dotenv
+# import os
 
 # class Test_Settings(check_settings_page):
 #     load_dotenv
