@@ -20,9 +20,9 @@ jobs:
 
     - name: Set PYTHONPATH
       run: |
-        echo "PYTHONPATH=$PYTHONPATH:$GITHUB_WORKSPACE" >> $GITHUB_ENV
+        echo "PYTHONPATH=${PYTHONPATH}:$GITHUB_WORKSPACE" >> $GITHUB_ENV
       env:
-        PYTHONPATH: "$PYTHONPATH:$GITHUB_WORKSPACE"
+        PYTHONPATH: "${PYTHONPATH}:$GITHUB_WORKSPACE"
 
     - name: Install dependencies
       run: |
