@@ -1,7 +1,7 @@
-# from a.tests_github_integration.tests_github_integration.pages.create_ideation import Check_Ideations
-from pages.create_ideation import Check_Ideations
-from dotenv import load_dotenv
-import os
+# # from a.tests_github_integration.tests_github_integration.pages.create_ideation import Check_Ideations
+# from pages.create_ideation import Check_Ideations
+# from dotenv import load_dotenv
+# import os
 
 
 
