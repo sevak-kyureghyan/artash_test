@@ -10,11 +10,11 @@ import pytest
 class Test_Create_Delete_Init(Check_Create_Init):
 
     @pytest.fixture(scope="session")
-    def name(pytestconfig):
+    def test_name(pytestconfig):
         return pytestconfig.getoption("name")
     load_dotenv()
 
-    
+
     # def test_create_delete_init(self,setup):
     #     self.browser = setup
     #     self.browser.get(os.getenv('Prod_Url'))
